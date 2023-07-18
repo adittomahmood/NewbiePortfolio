@@ -206,6 +206,9 @@ textarea {
     gap: 20px;
     padding: 20px;
   }
+  .skill-container {
+    padding: 5px;
+  }
   .ProfilePicture {
     width: 50%;
   }
@@ -232,7 +235,7 @@ textarea {
   .contact input[type="text"],
   .contact input[type="email"],
   textarea {
-    width: 77%;
+    width: 80%;
   }
   .footer-column {
     width: 100%;
