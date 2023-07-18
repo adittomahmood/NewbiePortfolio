@@ -185,8 +185,20 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+  .header {
+    background-image: none;
+  }
+  .HeadingTitle {
+    padding: 0px;
+  }
+  .headingbutton {
+    margin-bottom: 10px;
+  }
   .skill-container,
-  footer {
+  nav,
+  nav > ul,
+  footer,
+  .about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,7 +206,19 @@ textarea {
     gap: 20px;
     padding: 20px;
   }
-
+  .ProfilePicture {
+    width: 50%;
+  }
+  .aboutinfo {
+    padding: 10px;
+  }
+  .aboutinfocontainer,
+  .banner {
+    flex-direction: column;
+  }
+  .banner {
+    margin: 30px 30px 0px;
+  }
   .social-links img {
     padding: 0;
   }
@@ -208,7 +232,7 @@ textarea {
   .contact input[type="text"],
   .contact input[type="email"],
   textarea {
-    width: 88%;
+    width: 85%;
   }
   .footer-column {
     width: 100%;
@@ -220,5 +244,9 @@ textarea {
   }
   .social-links a {
     margin: 0 10px;
+  }
+
+  nav li {
+    margin: 10px 0px;
   }
 }
