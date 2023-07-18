@@ -184,7 +184,7 @@ textarea {
   display: none;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 576px) {
   .header {
     background-image: none;
   }
