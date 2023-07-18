@@ -184,7 +184,7 @@ textarea {
   display: none;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 360px) {
   .header {
     background-image: none;
   }
@@ -232,7 +232,7 @@ textarea {
   .contact input[type="text"],
   .contact input[type="email"],
   textarea {
-    width: 85%;
+    width: 77%;
   }
   .footer-column {
     width: 100%;
