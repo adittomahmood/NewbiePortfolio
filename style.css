@@ -186,6 +186,20 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
+  .ProfilePicture {
+    margin-left: 0;
+  }
+  .header {
+    margin-right: 0;
+  }
+
+  main {
+    margin-right: 0;
+  }
+
+  footer {
+    margin-right: 0;
+  }
   .header {
     background-image: none;
   }
