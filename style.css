@@ -131,6 +131,7 @@ main section {
 }
 
 footer {
+  align-items: center;
   display: flex;
   gap: 100px;
   background: #63a75a;
@@ -167,12 +168,57 @@ textarea {
 }
 
 .section-title {
-  padding-left: 20px;
   font-size: xx-large;
+}
+
+.message {
+  padding-left: 20px;
 }
 .submit {
   padding: 20px;
   background-color: #fd6e0a;
   border: none;
   border-radius: 5px;
+}
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .skill-container,
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .social-links img {
+    padding: 0;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+  #what-i-do-description {
+    padding: 20px 30px;
+  }
+  .contact input[type="text"],
+  .contact input[type="email"],
+  textarea {
+    width: 88%;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .social-links a {
+    margin: 0 10px;
+  }
 }
